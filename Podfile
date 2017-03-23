@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.5'
+pod 'HCSStarRatingView', :git => 'https://github.com/hugocampossousa/HCSStarRatingView.git'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod "TSMessages"
+pod 'MBCalendarKit', '~>3.0.4'
+pod 'XLForm', '~>3.0.2'
+pod 'IQKeyboardManager'
+pod 'libPhoneNumber-iOS', '~> 0.8'

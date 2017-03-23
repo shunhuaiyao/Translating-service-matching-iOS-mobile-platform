@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="serviceListCell" editingAccessoryType="disclosureIndicator" id="vtv-1S-4zR" customClass="serviceListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="vtv-1S-4zR" id="rrO-jP-KdF">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lang1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mz7-Mf-fmT">
+                        <rect key="frame" x="8" y="11" width="54" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="mz7-Mf-fmT" secondAttribute="height" multiplier="13:3" id="Mdk-0R-Epz"/>
+                            <constraint firstAttribute="width" secondItem="mz7-Mf-fmT" secondAttribute="height" multiplier="2:1" id="fWQ-6H-k9G"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Mdk-0R-Epz"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doubleArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="h2C-oS-FOg">
+                        <rect key="frame" x="70" y="11" width="36" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="h2C-oS-FOg" secondAttribute="height" multiplier="1:1" id="KLA-vs-jwA"/>
+                            <constraint firstAttribute="width" secondItem="h2C-oS-FOg" secondAttribute="height" multiplier="1:1" id="eei-0R-Dpi"/>
+                            <constraint firstAttribute="width" secondItem="h2C-oS-FOg" secondAttribute="height" multiplier="4:3" id="mBe-ng-BjD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KLA-vs-jwA"/>
+                                <exclude reference="eei-0R-Dpi"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lang2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ0-QQ-Umy">
+                        <rect key="frame" x="114" y="11" width="54" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="VJ0-QQ-Umy" secondAttribute="height" multiplier="13:3" id="2C2-eX-rSa"/>
+                            <constraint firstAttribute="width" secondItem="VJ0-QQ-Umy" secondAttribute="height" multiplier="2:1" id="edy-vp-l46"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2C2-eX-rSa"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="mz7-Mf-fmT" secondAttribute="bottom" constant="3.5" id="07j-fS-ItG"/>
+                    <constraint firstItem="mz7-Mf-fmT" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="3" id="52e-xK-Vbf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="h2C-oS-FOg" secondAttribute="bottom" constant="-4.5" id="9UP-lp-QJA"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="-5" id="9dm-og-aiI"/>
+                    <constraint firstItem="VJ0-QQ-Umy" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="3" id="D0P-R8-x2t"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="h2C-oS-FOg" secondAttribute="bottom" constant="3.5" id="EFJ-Oe-7IA"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="-5" id="Iq3-ec-oGq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="VJ0-QQ-Umy" secondAttribute="bottom" constant="3.5" id="KNe-Du-N9e"/>
+                    <constraint firstItem="VJ0-QQ-Umy" firstAttribute="leading" secondItem="h2C-oS-FOg" secondAttribute="trailing" constant="8" id="Q7B-AP-dyq"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="leading" secondItem="rrO-jP-KdF" secondAttribute="leadingMargin" id="RLF-W1-Zfr"/>
+                    <constraint firstItem="mz7-Mf-fmT" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="3" id="ScV-2b-rX0"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="leading" secondItem="mz7-Mf-fmT" secondAttribute="trailing" constant="8" id="XvX-ns-k6P"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="top" secondItem="rrO-jP-KdF" secondAttribute="topMargin" constant="3" id="ZGQ-Mv-yiM"/>
+                    <constraint firstItem="mz7-Mf-fmT" firstAttribute="leading" secondItem="h2C-oS-FOg" secondAttribute="trailing" constant="8" id="e1P-Bl-Xvc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="h2C-oS-FOg" secondAttribute="bottom" constant="-4.5" id="igH-GZ-RKV"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="mz7-Mf-fmT" secondAttribute="leading" id="jbs-sR-LuW"/>
+                    <constraint firstItem="h2C-oS-FOg" firstAttribute="leading" secondItem="mz7-Mf-fmT" secondAttribute="trailing" constant="8" id="rVe-76-phb"/>
+                    <constraint firstItem="VJ0-QQ-Umy" firstAttribute="leading" secondItem="h2C-oS-FOg" secondAttribute="trailing" constant="8" id="u9X-79-WGV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mz7-Mf-fmT" secondAttribute="bottom" constant="3.5" id="ykz-0m-6Ga"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="07j-fS-ItG"/>
+                        <exclude reference="ScV-2b-rX0"/>
+                        <exclude reference="e1P-Bl-Xvc"/>
+                        <exclude reference="9UP-lp-QJA"/>
+                        <exclude reference="9dm-og-aiI"/>
+                        <exclude reference="Iq3-ec-oGq"/>
+                        <exclude reference="RLF-W1-Zfr"/>
+                        <exclude reference="igH-GZ-RKV"/>
+                        <exclude reference="rVe-76-phb"/>
+                        <exclude reference="u9X-79-WGV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="doubleArrow" destination="h2C-oS-FOg" id="7s2-Cm-cGx"/>
+                <outlet property="lang1Label" destination="mz7-Mf-fmT" id="WIN-AO-4aU"/>
+                <outlet property="lang2Label" destination="VJ0-QQ-Umy" id="nnG-5l-FUm"/>
+            </connections>
+            <point key="canvasLocation" x="-253" y="36"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="doubleArrow.png" width="54" height="38"/>
+    </resources>
+</document>
